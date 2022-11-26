@@ -3,7 +3,7 @@ node {
 	stage('gitclone') {
 	
 	
-     git branch: 'main', credentialsId: 'demo', url: 'https://github.com/Shivachinna1234/medam.git'
+     git branch: 'main', credentialsId: 'bittu', url: 'https://github.com/Shivachinna1234/medam.git'
 	}
 	stage('java version') {
 	
